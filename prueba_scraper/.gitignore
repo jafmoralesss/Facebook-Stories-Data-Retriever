@@ -1,3 +1,5 @@
 .venv_prueba/
 __pycache__/
 .DS_Store
+facebook_auth.json
+estados_limpios.docx
