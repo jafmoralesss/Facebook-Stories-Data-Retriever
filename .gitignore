@@ -1,2 +1,100 @@
-facebook_auth.json
-estados_limpios.docx
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environments
+.env
+.venv
+env/
+venv/
+ENV/
+
+# Python packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+pip-wheel-metadata/
+
+# Dependency files (optional – keep requirements.txt)
+pip-log.txt
+
+# =========================
+# Playwright
+# =========================
+# Browser binaries downloaded by Playwright
+ms-playwright/
+
+# Playwright cache
+.playwright/
+playwright/.cache/
+
+# Playwright screenshots / videos / traces
+test-results/
+playwright-report/
+
+# =========================
+# Web Scraping Artifacts
+# =========================
+# Scraped data
+data/
+output/
+results/
+
+# Temporary HTML / JSON dumps
+*.html
+*.json
+*.xml
+
+# Logs
+logs/
+*.log
+
+# =========================
+# OS-specific
+# =========================
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Linux
+*~
+
+# =========================
+# IDEs & Editors
+# =========================
+# VS Code
+.vscode/
+
+# PyCharm / IntelliJ
+.idea/
+
+# Sublime
+*.sublime-project
+*.sublime-workspace
+
+# =========================
+# Jupyter (if used for scraping tests)
+# =========================
+.ipynb_checkpoints/
+
+# =========================
+# Secrets & Config
+# =========================
+# Environment variables / secrets
+.env.*
+*.key
+*.pem
+
+# Local config overrides
+config.local.*
